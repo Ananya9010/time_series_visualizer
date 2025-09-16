@@ -38,7 +38,7 @@ def draw_bar_plot():
     df_grouped = df_grouped[month_order]
 
     fig = df_grouped.plot(kind='bar', figsize=(15,7)).figure
-    plt.xlabel('Year')
+    plt.xlabel('Years')
     plt.ylabel('Average Page Views')
     plt.title('Monthly Average Page Views per Year')
     plt.tight_layout()
