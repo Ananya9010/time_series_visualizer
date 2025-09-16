@@ -74,6 +74,6 @@ def draw_box_plot():
     return fig
 
 
-   draw_line_plot()
-   draw_bar_plot()
-   draw_box_plot()
+    draw_line_plot()
+    draw_bar_plot()
+    draw_box_plot()
